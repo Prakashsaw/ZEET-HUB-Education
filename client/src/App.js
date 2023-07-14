@@ -8,7 +8,7 @@ import Home from "./pages/Home/Home";
 import Footer from "./components/Footer";
 import LoginStudent from "./pages/Student/LoginStudent";
 import RegisterStudent from "./pages/Student/RegisterStudent";
-import StudentDashBoard from "./pages/Student/StudentDashBoard";
+import StudentDashboard from "./pages/Student/StudentDashboard";
 import LoginSchool from "./pages/School/LoginSchool";
 import RegisterSchool from "./pages/School/RegisterSchool";
 import ContentCreatorDashBoard from "./pages/ContentCreator/ContentCreatorDashBoard";
@@ -26,15 +26,15 @@ function App() {
     <>
       <BrowserRouter>
 
-      <NavBar />
+        <NavBar />
         {/* <Home/> */}
-        <Services />
-        <LoginStudent/>
-        <RegisterStudent/>
-        <StudentDashBoard/>
-        <br/>
+        {/* <Services /> */}
+        {/* <LoginStudent/> */}
+        {/* <RegisterStudent/> */}
+        <StudentDashboard />
+        {/* <br/> */}
 
-        <LoginSchool/>
+        {/* <LoginSchool/>
         <RegisterSchool/>
         <br/>
 
@@ -45,7 +45,7 @@ function App() {
         <br/>
 
         <AdminDashBoard/>
-        <LoginAdmin/>
+        <LoginAdmin/> */}
 
         <Routes>
           {/* <Route path="/" exact component={Home}></Route> */}
@@ -56,7 +56,7 @@ function App() {
           <Route path="/design" component={Design}></Route>
           <Route path="/consulting" component={Consulting}></Route> */}
         </Routes>
-        <Footer/>
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );
